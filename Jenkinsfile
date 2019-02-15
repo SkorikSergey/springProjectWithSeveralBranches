@@ -8,7 +8,7 @@ pipeline {
     }
     stage('build a job') {
       steps {
-        build 'build'
+        build 'build project'
       }
     }
     stage('end building shell script ') {
